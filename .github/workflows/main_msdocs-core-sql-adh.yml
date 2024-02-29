@@ -58,6 +58,7 @@ jobs:
       
       - name: Login to Azure
         uses: azure/login@v1
+        
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_301795D358894B18A76BA9B8F649438A }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_CC1596DC6211436584BE77105A310661 }}
